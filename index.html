@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruchika Sinha - Portfolio</title>
+  <link rel="shortcut icon" href="assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/indexstyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</head>
+<body>
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="assets/images/avatar-2.png" alt="Ruchika Sinha" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ruchika Sinha">Ruchika Sinha</h1>
+
+          <p class="title">WEB Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:omtestmail@gmail.com" class="contact-link">ruchika.ggia@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+916261744697" class="contact-link">+91 6261744697</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">17 May, 1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bhopal, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ruchika-sinha-profile/" class="social-link" target="_blank" rel="noopener" title="LinkedIn Profile">
+              <ion-icon name="logo-Linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/ruchika-sinha/" class="social-link" target="_blank" rel="noopener" title="GitHub Profile">
+              <ion-icon name="logo-GitHub"></ion-icon>
+            </a>
+          </li>
+          <!--<li class="social-item">
+            <a href="https://codepen.io/your-work/" class="social-link" target="_blank">
+              <ion-icon name="logo-CodePen"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.slideshare.net/RuchikaSinha10/edit_my_uploads?page=1" class="social-link" target="_blank">
+              <ion-icon name="logo-Slideshare"></ion-icon>
+            </a> 
+            <li class="social-item">
+            <a href="assests/pdf/Ruchika_Sinha_Resume.pdf" class="social-link" target="_blank">
+              <ion-icon name="logo-pdf"></ion-icon>
+              </a>
+          </li>-->
+        </ul>
+       </div>
+
+    </aside>
+
+<!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!-- Navbar -->
+<nav class="navbar">
+  <ul class="navbar-list">
+    <li class="navbar-item">
+      <button class="navbar-link active" data-nav-link="about">About</button>
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link="resume">Resume</button>
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link="portfolio">Portfolio</button>
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link="contact">Contact</button>
+    </li>
+  </ul>
+</nav>
+
+<!-- Pages -->
+
+<!--
+        - #ABOUT
+      -->
+
+  <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Web developer with 2+ years of experience creating scalable, responsive, and cross-browser-compatible applications. Proven track record of enhancing UI performance by 40%, optimizing load times by 35%, and increasing team productivity through reusable components and documentation. Adept in Agile workflows, REST APIs, and modern frontend architecture. Seeking to build user-centric applications at scale.
+          </p>
+
+          <p>
+            Key Achievements:<br>Architected a responsive cross-browser compatible weather website with real-time updates using JavaScript and CSS, achieving a 90% faster load time on web pages.<br>Collaborated with cross-functional teams to resolve complex coding issues, improving site performance by 15% <br> Cut documentation redundancy by 30%, improving team onboarding and feature delivery speed. <br> Debugged and resolved 95% of reported issues in critical applications, ensuring seamless functionality. <br> Developed dynamic websites using frontend technologies, delivering real-time updates.
+          </p>
+        </section>
+
+  <section class="skills">
+    <h2 class="h2 skills-title">Skills</h2>
+    <ul class="skills-list has-scrollbar">
+
+            
+            <li class="skills-item">
+              <div class="content-card" data-skills-item>
+
+                <figure class="skills-avatar-box">
+                  <img src="assets/images/java.jpg" alt="Java" width="60" data-skills-avatar loading="lazy"> 
+                </figure>
+
+                <h4 class="h4 skills-item-title" data-skills-title>Java</h4>
+
+                <div class="skills-text" data-skills-text>
+                  <p>
+                    Java is a high-level, general-purpose, memory-safe, object-oriented programming language. It is intended to let programmers write once, run anywhere, meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are typically compiled to bytecode that can run on any Java virtual machine regardless of the underlying computer architecture. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="content-card" data-skills-item>
+
+                <figure class="skills-avatar-box">
+                  <img src="assets/images/js.jpg" alt="JavaScript" width="60" data-skills-avatar loading="lazy">
+                </figure>
+
+                <h4 class="h4 skills-item-title" data-skills-title>Javascript</h4>
+
+                <div class="skills-text" data-skills-text>
+                  <p>
+                    JavaScript, often abbreviated as JS, is a programming language and core technology of the World Wide Web, alongside HTML and CSS. Ninety-nine percent of websites use JavaScript on the client side for webpage behavior. Web browsers have a dedicated JavaScript engine that executes the client code. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+             
+                  <li class="skills-item">
+              <div class="content-card" data-skills-item>
+
+                <figure class="skills-avatar-box">
+                  <img src="assets/images/html.jpg" alt="HTML" width="60" data-skills-avatar loading="lazy">
+                </figure>
+
+                <h4 class="h4 skills-item-title" data-skills-title>Html</h4>
+
+                <div class="skills-text" data-skills-text>
+                  <p>
+                    Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript, a programming language.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+            
+            <li class="skills-item">
+              <div class="content-card" data-skills-item>
+
+                <figure class="skills-avatar-box">
+                  <img src="assets/images/css.jpg" alt="CSS" width="60" data-skills-avatar loading="lazy">
+                </figure>
+
+                <h4 class="h4 skills-item-title" data-skills-title>CSS</h4>
+
+                <div class="skills-text" data-skills-text>
+                  <p>
+                    CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once. External stylesheets are stored in CSS files.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="content-card" data-skills-item>
+
+                <figure class="skills-avatar-box">
+                  <img src="assets/images/bootstrap.jpg" alt="Bootstrap" width="60" data-skills-avatar loading="lazy">
+                </figure>
+
+                <h4 class="h4 skills-item-title" data-skills-title>Bootstrap</h4>
+
+                <div class="skills-text" data-skills-text>
+                  <p>
+                    Bootstrap is a free front-end framework for faster and easier web development. Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins. Bootstrap also gives you the ability to easily create responsive designs
+                  </p>
+                </div>
+
+              </div>
+            </li>
+              
+            <li class="skills-item">
+              <div class="content-card" data-skills-item>
+
+                <figure class="skills-avatar-box">
+                  <img src="assets/images/react.jpg" alt="React.js" width="60" data-skills-avatar loading="lazy">
+                </figure>
+
+                <h4 class="h4 skills-item-title" data-skills-title>React.js</h4>
+
+                <div class="skills-text" data-skills-text>
+                  <p>
+                    React is a free and open-source front-end JavaScript library for building user interfaces based on components by Facebook Inc. 
+                  </p>
+                </div>
+              </div>
+            </li>
+      
+           <li class="skills-item">
+              <div class="content-card" data-skills-item>
+
+                <figure class="skills-avatar-box">
+                  <img src="assets/images/git.jpg" alt="git" width="60" data-skills-avatar loading="lazy">
+                </figure>
+
+                <h4 class="h4 skills-item-title" data-skills-title>git</h4>
+
+                <div class="skills-text" data-skills-text>
+                  <p>
+                    Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="content-card" data-skills-item>
+
+                <figure class="skills-avatar-box">
+                  <img src="assets/images/SEO.jpg" alt="SEO" width="60" data-skills-avatar loading="lazy">
+                </figure>
+
+                <h4 class="h4 skills-item-title" data-skills-title>SEO</h4>
+
+                <div class="skills-text" data-skills-text>
+                  <p>
+                    SEO stands for search engine optimization. It is the process of making your website more visible in search engines like Google without paying for ads.
+                  </p>
+                </div>
+              </div>
+            </li>
+            
+            <li class="skills-item">
+              <div class="content-card" data-skills-item>
+
+                <figure class="skills-avatar-box">
+                  <img src="assets/images/vcoding.jpg" alt="vibe coding" width="60" data-skills-avatar loading="lazy">
+                </figure>
+
+                <h4 class="h4 skills-item-title" data-skills-title>Vibe Coding</h4>
+
+                <div class="skills-text" data-skills-text>
+                  <p>
+                    Vibe coding is an approach to software development where users describe their ideas in natural language, and an AI generates the corresponding code. This method allows even those without extensive programming skills to create applications by focusing on their concepts rather than the technical details of coding.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="content-card" data-skills-item>
+
+                <figure class="skills-avatar-box">
+                  <img src="assets/images/debug.jpg" alt="Debuuging" width="60" data-skills-avatar loading="lazy">
+                </figure>
+
+                <h4 class="h4 skills-item-title" data-skills-title>Debugging</h4>
+
+                <div class="skills-text" data-skills-text>
+                  <p>
+                    Debugging is the process of finding the root cause, workarounds and possible fixes for bugs. For software, debugging tactics can involve interactive debugging, control flow analysis, log file analysis, monitoring at the application or system level, memory dumps, and profiling.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="content-card" data-skills-item>
+
+                <figure class="skills-avatar-box">
+                  <img src="assets/images/j.jpg" alt="JUnit & Mockito" width="60" data-skills-avatar loading="lazy">
+                </figure>
+
+                <h4 class="h4 skills-item-title" data-skills-title>JUnit & Mockito</h4>
+
+                <div class="skills-text" data-skills-text>
+                  <p>
+                    When it comes to writing unit tests for Java applications, developers often choose between two popular testing frameworks: JUnit and Mockito. These frameworks, while complementary in many ways, serve different purposes and offer unique features.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="content-card" data-skills-item>
+
+                <figure class="skills-avatar-box">
+                  <img src="assets/images/eclipse.jpg" alt="Eclipse" width="60" data-skills-avatar loading="lazy">
+                </figure>
+
+                <h4 class="h4 skills-item-title" data-skills-title>Eclipse</h4>
+
+                <div class="skills-text" data-skills-text>
+                  <p>
+                    the Eclipse IDE, Jakarta EE, and hundreds of open source projects, including runtimes, tools, specifications, and frameworks.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="content-card" data-skills-item>
+
+                <figure class="skills-avatar-box">
+                  <img src="assets/images/vs.jpg" alt="Visual Studio" width="60" data-skills-avatar loading="lazy">
+                </figure>
+
+                <h4 class="h4 skills-item-title" data-skills-title>Visual Studio</h4>
+
+                <div class="skills-text" data-skills-text>
+                  <p>
+                    Visual Studio dev tools & services make app development easy for any developer, on any platform & language. Develop with our code editor or IDE anywhere for free.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+    </ul>
+    <!--
+          - skills modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="skills-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn aria-label="Close modal">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="assets/images/html.jpg" alt="HTML" width="80" data-modal-img>
+              </figure>
+
+              <img src="assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>HTML</h4>
+
+              <!-- <time datetime="2025-06-24">24 June, 2025</time> -->
+
+              <div data-modal-text>
+                <p>
+                  Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript, a programming language.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div> 
+
+  </section>
+</article>
+
+  <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Technocrats Institute Of Technology, Bhopal</h4>
+
+              <span>2019 — 2022</span>
+
+              <p class="timeline-text">
+                Pursue Computer Science Engineering with a 9.05 CGPA.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Government Women's Polytechnic College, Bhopal</h4>
+
+              <span>2016 — 2019</span>
+
+              <p class="timeline-text">
+                Pursue Computer Science Engineering with a 6.08 CGPA.
+              </p>
+              <a href="assets/pdf/Ruchika_Sinha_Resume.pdf" download class="btn btn-neon-outline" target="_blank">DOWNLOAD RESUME</a>
+            </li>
+
+</ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Developer At Cognizant, Pune</h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+              <b>Web Developer:</b> Expertise in Java and coupled with frontend mastery in HTML, CSS, Bootstrap, JavaScript(ES6+), React.js, Tailwind CSS, SEO and Git.<br> <b>Liferay & Portal Development:</b> Developed and optimized Liferay portlets, enhancing application performance by 20% in a high-scale environment. <br> <b>System Migration:</b> Led SOAP-to-REST migration, improving system efficiency by 15%, and  Improved system UI by 15% through CSS <br> <b>Performance Optimization:</b> Debugged and optimized applications, reducing load times and improving system reliability. <br> <b>Collaboration & Problem-Solving:</b> A proactive team player who thrives in Agile environments, ensuring smooth project execution and delivering innovative solutions. <br> <b>Documentation:</b> Documented process changes in Wiki pages and maintained detailed records in Excel and Word, improving team productivity by 20%. <br> <b>Testing:</b> Conducted rigorous testing and debugging using Veracode, resolving 95% of reported issues within project timelines <br> Streamlined workflows by implementing the Blue Bolt concept, reducing manual effort by 10%. </p>
+
+            </li>
+
+            </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Frontend Technologies</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill width-80"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JAVA</h5>
+                <data value="70">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill width-70"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Other CMS and Designing Tools</h5>
+                <data value="50">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill width-50"></div>
+              </div>
+
+            </li>
+
+           <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Liferay</h5>
+                <data value="50">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill width-50"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+<!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              </ul>
+
+          </div>
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="Web Design">
+                    <a href="assets/projects/weather-app.html" target="_blank">View Project</a>
+
+               <h3 class="project-title">Weather App</h3>
+
+                <p class="project-description">Fetches weather data using an API and displays it with other details followed.</p>
+              </li>
+            
+            <li class="project-item  active" data-filter-item data-category="Web Design">
+                    <a href="assets/projects/to-do-list.html" target="_blank">View Project</a>
+
+                <h3 class="project-title">To-Do List</h3>
+
+                <p class="project-description">Manages task with local storage where you can create and delete the task.</p>
+              </li>
+            
+            <li class="project-item  active" data-filter-item data-category="Web Design">
+                    <a href="assets/projects/SpeechToText.html" target="_blank">View Project</a>
+
+                <h3 class="project-title">Speech To Text</h3>
+
+                <p class="project-description">Created a UI where you speak and a text will generated which you can copy and use it further..</p>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Web Design">
+                    <a href="assets/projects/ecommercewebsite.html" target="_blank">View Project</a>
+
+                <h3 class="project-title">ECommerce Website</h3>
+
+                <p class="project-description">Created a UI where you shop, place order, see products. with animation.</p>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="Web Design">
+                    <a href="assets/projects/quizapp.html" target="_blank">View Project</a>
+
+                <h3 class="project-title">Quiz Website</h3>
+
+                <p class="project-description">Created a UI where you see quizzes and answer it.</p>
+            </li>
+    
+            <li class="project-item  active" data-filter-item data-category="Web Design">
+                    <a href="assets/projects/soundboard.html" target="_blank">View Project</a>
+
+                <h3 class="project-title">Sound Board</h3>
+
+                <p class="project-category">Web Design</p>
+
+                <p class="project-description">Created a UI where I have created some sound boxes.</p>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="Animated Tube Clock">
+                    <a href="assets/projects/animatedtubeclock.html" target="_blank">View Project</a>
+
+                <h3 class="project-title">Animated Tube Clock</h3>
+
+                <p class="project-description">Created a UI where you watch animated tube clock with real time timings.</p>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="Web Design">
+                    <a href="assets/projects/netflixloginpageclone.html" target="_blank">View Project</a>
+
+                <h3 class="project-title">Netflix Login Page Clone</h3>
+
+                <p class="project-description">Created a UI where you see the clone page of netflix using html and css which is a static page.</p>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Web Design">
+                    <a href="assets/projects/moviewebsite.html" target="_blank">View Project</a>
+
+                <h3 class="project-title">Movie Website</h3>
+
+                <p class="project-description">Created a UI where you watch movies overview which is a static page.</p>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Web Design">
+                    <a href="assets/projects/climatechanger.html" target="_blank">View Project</a>
+
+                <h3 class="project-title">Climate Changer</h3>
+
+                <p class="project-description">Created a UI where you can see watch like climate changer with animations.</p>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Web Design">
+                    <a href="assets/projects/snake.html" target="_blank">View Project</a>
+
+                <h3 class="project-title">Snake Game</h3>
+
+                <p class="project-description">Created a UI where you can play snake game in neon color theme.</p>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Web Design">
+                    <a href="assets/projects/3DMinnions.html" target="_blank">View Project</a>
+
+                <h3 class="project-title">3D Minions</h3>
+
+                <p class="project-description">Created a UI where you can see magic in which 2 minions appear.</p>
+            </li>
+
+  </ul>
+
+        </section>
+
+      </article>
+
+  <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234700.73463944453!2d77.09402866028667!3d23.1994180772848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c428f8fd68fbd%3A0x2155716d572d4f8!2sBhopal%2C%20Madhya%20Pradesh%2C%20India!5e0!3m2!1sen!2sbd!4v1740646029216!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy" title="Map showing Bhopal, India"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ruchika Sinha. All rights reserved.</p>
+  </footer>
+
+<!--
+    - custom js link
+  -->
+  <script src="assets/js/indexscript.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
