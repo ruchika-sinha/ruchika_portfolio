@@ -6,7 +6,7 @@ Welcome to my growing portfolio! This repository houses my projects as I journey
 🔗 **Live URL:** [https://your-portfolio.netlify.app](https://your-portfolio.netlify.app)-->
 ## Live Demo
 - [View Portfolio Website](https://ruchika-sinha.github.io/ruchika_portfolio/)
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/171ff927-0f4e-4346-870a-f7bc4bbe88e0/deploy-status)](https://app.netlify.com/projects/ruchikasinhaportfolio/deploys)
+- [![Netlify Status]([![Netlify Status](https://api.netlify.com/api/v1/badges/b3e72efb-788d-4bbf-b903-4ce0a352641b/deploy-status)](https://app.netlify.com/projects/ruchikasinhaportfolio/deploys))
 **Live URL:** - [https://ruchikasinhaportfolio.netlify.app/] - (https://ruchikasinhaportfolio.netlify.app/)
 ## Table of Contents
 
